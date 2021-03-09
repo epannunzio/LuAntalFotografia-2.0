@@ -1,0 +1,20 @@
+body {
+	font-family: Oswald, "Times New Roman", serif;
+    background-image: url(images/img01.png); 
+}
+
+
+#copyright
+{
+		position:static;
+		padding: 1em 0em;
+		text-align: center;
+		color: white;
+		background: #62573b;
+}
+	
+#copyright a
+{
+		text-decoration: none;
+		color: white;
+}
