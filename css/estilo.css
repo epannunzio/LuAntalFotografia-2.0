@@ -1,16 +1,81 @@
 body {
-	font-family: Oswald, "Times New Roman", serif;
+	font-family: 'Dancing Script', cursive;
     background-image: url(images/img01.png); 
 }
 
+.navbar-brand {
+    font-family: 'Dancing Script', cursive;
+}
 
-#copyright
-{
-		position:static;
-		padding: 1em 0em;
-		text-align: center;
-		color: white;
-		background: #62573b;
+h1, h2, h3 {
+    font-family: 'Dancing Script', cursive;
+}
+
+.foto-princ {
+    width: 500px;
+    border: 5px solid white;
+}
+
+.whats {
+    text-decoration: none;
+}
+
+.form-floating {
+    width: 50%;
+}
+
+.espec {
+    text-transform: uppercase;
+    color: darkred;
+}
+
+.smash {
+    width: 300px;
+    border: 5px solid white;
+}
+
+.imagem-carrossel {
+    height: 700px;
+    object-position: 0 10%;
+    object-fit: cover;
+}
+
+.fa-whatsapp-square:before {
+    color:green;
+}
+
+.fa-instagram-square:before {
+    color:#de075a;
+}
+
+.fa-envelope-square:before {
+    color: darkblue;
+}
+
+.descricao {
+    text-transform: uppercase; 
+}
+
+.valores {
+    list-style-type: none;
+}
+
+.lufoto {
+    width: 550px;
+    border: 5px solid white;
+}
+
+.album-velho {
+    width: 500px;
+    border: 5px solid white;
+}
+
+#copyright {
+    position:static;
+    padding: 1em 0em;
+    text-align: center;
+    color: black;
+    background: #c3c2c0;
 }
 	
 #copyright a
