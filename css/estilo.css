@@ -11,6 +11,23 @@ h1, h2, h3 {
     font-family: 'Dancing Script', cursive;
 }
 
+.name {
+    background: black;
+    color: darkgoldenrod;
+    height: 10em;
+    position: relative;
+}
+
+.name1 {  
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    font-size: 70px;
+}
+
 .foto-princ {
     width: 500px;
     border: 5px solid white;
@@ -40,6 +57,11 @@ h1, h2, h3 {
     object-fit: cover;
 }
 
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
 .fa-whatsapp-square:before {
     color:green;
 }
@@ -60,6 +82,10 @@ h1, h2, h3 {
     list-style-type: none;
 }
 
+.especializada {
+    list-style-type: none;
+}
+
 .lufoto {
     width: 550px;
     border: 5px solid white;
@@ -76,10 +102,11 @@ h1, h2, h3 {
     text-align: center;
     color: black;
     background: #c3c2c0;
+    height: 50px;
 }
 	
 #copyright a
 {
-		text-decoration: none;
-		color: white;
+    text-decoration: none;
+    color: white;
 }
