@@ -16,6 +16,7 @@ h1, h2, h3 {
     color: darkgoldenrod;
     height: 10em;
     position: relative;
+    padding-top: 250px;
 }
 
 .name1 {  
@@ -31,6 +32,10 @@ h1, h2, h3 {
 .foto-princ {
     width: 500px;
     border: 5px solid white;
+}
+
+.p {
+    justify-content: center;
 }
 
 .whats {
