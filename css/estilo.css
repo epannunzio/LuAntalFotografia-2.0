@@ -1,14 +1,17 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 body {
 	font-family: 'Dancing Script', cursive;
-    background-image: url(images/img01.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: bottom;
+    background-color: #ca7070 !important;
 }
 
 #nav1
 {  
-    background-color:rgb(0, 0, 0) transparent; 
+    background-color: #000; 
     opacity: 0.2; 
     filter:(opacity=50);    
 
@@ -22,12 +25,14 @@ h1, h2, h3 {
     font-family: 'Dancing Script', cursive;
 }
 
-.name {
-    background: black;
-    color: darkgoldenrod;
-    height: 10em;
+.logo-lu {
     position: relative;
-    padding-top: 250px;
+    bottom: 40px;
+    text-align: center;
+}
+
+.logo-lu-larg {
+    width: 800px;
 }
 
 .name1 {  
@@ -59,7 +64,7 @@ h1, h2, h3 {
 
 .espec {
     text-transform: uppercase;
-    color: goldenrod;
+    color: #5e2e2e;
 }
 
 .smash {
@@ -93,15 +98,22 @@ a {
     color: white; 
     font-family: 'Dancing Script', cursive;
     font-size: 25px;
+    padding-bottom: 100px;
 }
 
 .valores {
     list-style-type: none;
+    color: #fff;
+    font-size: 25px;
+    padding-bottom: 30px;
 }
 
 .especializada {
     list-style-type: none;
     color: white; 
+    position: relative;
+    bottom: 100px;
+    font-size: 20px;
 }
 
 .lufoto {
@@ -119,7 +131,7 @@ a {
 }
 
 .carousel {
-    background-color: rgb(190, 158, 74);
+    background-color: rgb(59, 7, 35);
     color: rgb(223, 223, 223);
     font-family: 'Newsreader', serif;
 }
@@ -137,7 +149,7 @@ a {
 }
 
 .carousel-nome {
-   color: rgb(53, 42, 13);
+   color: #fff;
    font-size: 20px;
 }
 
@@ -145,7 +157,7 @@ a {
     position:static;
     padding: 1em 0em;
     text-align: center;
-    color: rgb(190, 158, 74);
+    color: #ca7070;
     background: black;
     height: 50px;
     font-size: 12px;
@@ -153,6 +165,6 @@ a {
 	
 #copyright a {
     text-decoration: none;
-    color: rgb(190, 158, 74);
+    color: #ca7070;
 }
 
