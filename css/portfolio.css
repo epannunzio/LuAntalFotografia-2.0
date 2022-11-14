@@ -2,8 +2,10 @@
 
 ul#album-fotos {
     width: 900px;
+    height: 550px;
     margin: 0 auto;
     padding-left: 140px;
+    padding-top: 50px;
     overflow: hidden;
     list-style: none;
 }
