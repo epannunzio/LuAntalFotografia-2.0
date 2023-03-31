@@ -11,14 +11,12 @@ body {
 
 #nav1
 {  
-    background-color: #000; 
-    opacity: 0.2; 
-    filter:(opacity=50);    
-
+    background-color: #c2485cfc; 
 }
 
 .navbar-brand {
     font-family: 'Dancing Script', cursive;
+    color: #fff !important;
 }
 
 h1, h2, h3 {
@@ -31,8 +29,29 @@ h1, h2, h3 {
     text-align: center;
 }
 
+@media (max-width: 768px) {
+    .logo-lu {
+       bottom: 0; 
+    }
+}
+
 .logo-lu-larg {
     width: 800px;
+}
+
+@media (max-width: 768px) {
+    .logo-lu-larg {
+        width: 400px;
+        padding-top: 50px;
+    }
+}
+
+.logo-lu-sobre {
+    text-align: center;
+}
+
+.logo-lu-larg-sobre {
+    width: 500px;
 }
 
 .name1 {  
@@ -78,15 +97,15 @@ h1, h2, h3 {
 }
 
 .fa-whatsapp-square:before {
-    color:rgb(155, 155, 155);
+    color:#e0e0e0;
 }
 
 .fa-instagram-square:before {
-    color:#9c9c9c;
+    color:#e0e0e0;
 }
 
 .fa-envelope-square:before {
-    color: rgb(167, 167, 167);
+    color: #e0e0e0;
 }
 
 a {
@@ -105,17 +124,14 @@ a {
     list-style-type: none;
     color: #fff;
     font-size: 25px;
-    padding-bottom: 30px;
+    padding-top: 110px;
 }
 
 .especializada {
     list-style-type: none;
     color: white; 
-    position: relative;
-    bottom: 100px;
+    padding: 10px 20px 30px;
     font-size: 20px;
-    padding-right: 50px;
-    padding-left: 50px;
 }
 
 .lufoto {
@@ -176,3 +192,74 @@ a {
     color: #ca7070;
 }
 
+.ball {
+    color: #fff;
+    font-size: 17px;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    width: 150px;
+    height: 150px;
+    left: 20px;
+    top: 90px;
+    border-radius: 100%;
+    background-color: #7d1225;
+    position: relative;
+    animation: changeColor 7s;
+    animation-iteration-count: infinite;
+}
+  
+@keyframes example-one {
+    from {
+      background-color: #7d1225;
+    }
+  
+    to {
+      background-color:#7d1225;
+    }
+}
+  
+@keyframes changeColor {
+    0% {
+      background-color: #7d1225;
+      left: 20px;
+      top: 0;
+    }
+  
+    25% {
+      background-color: #af223c;
+      top: 50vh;
+      bottom: 0;
+      left: 20px;
+    }
+  
+    50% {
+      background-color:  #c9576c;
+      top: 100vh;
+      bottom: 0;
+      left: 20px;
+    }
+  
+    100% {
+      background-color: #ff8a9f;
+      top: 200vh;
+      bottom: 0;
+      left: 20px;
+    }
+}
+
+.navbar-brand {
+    font-family: 'Nosifer', cursive;  
+}
+
+.txt-sobre {
+    display: flex;
+}
+
+.welcome {
+    width: 75%;
+}
+
+.logo-lu-contato {
+    display: flex;
+}
